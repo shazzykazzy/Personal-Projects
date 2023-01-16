@@ -114,19 +114,4 @@ int main() {
     return 0;
     }
 
-char playAgain = 'Y';
-while(playAgain == 'Y' || playAgain == 'y'){
-    // main game code
-
-    printf("Do you want to play again? (Y/N): ");
-    scanf(" %c", &playAgain);
-
-    if(playAgain == 'Y' || playAgain == 'y'){
-        // reset board
-        // reset other necessary variables
-    }
-    else{
-        break;
-    }
-}
     
